@@ -86,12 +86,12 @@
 
 .commentForm footer {
     visibility: hidden;
-    max-height: 0;
+    max-height:0;
 }
 
 .commentForm:focus-within footer {
     visibility: visible;
-    max-height: nonenpm run dev;
+    max-height: none;
 }
 
 .commentForm button[type=submit] {
